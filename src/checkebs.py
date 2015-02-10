@@ -26,7 +26,7 @@ for volume in volumes_list:
         total_volumes_available_size = total_volumes_available_size + volume.size
 
 #Check snapshots
-snapshots_list = connection.get_all_snapshots(owner='847091595066')
+snapshots_list = connection.get_all_snapshots(owner='XXXXX')
 total_snapshots = len(snapshots_list)
 for snapshot in snapshots_list:
     total_snapshots_size = total_snapshots_size + snapshot.volume_size
