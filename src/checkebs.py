@@ -1,4 +1,4 @@
-__author__="paolo.latella@interact.it"
+__author__="paolo.latella@xpeppers.com"
 __date__ ="$19-ago-2013 15.06.12$"
 
 #Quota in GB dello spazio AWS (default pari a 20 TB)
